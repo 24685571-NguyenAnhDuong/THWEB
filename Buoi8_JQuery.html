@@ -43,7 +43,7 @@
             console.log("Cuốn sách đầu tiên là:", $(".book:first h3").text());
 
             // 4. Thêm nút Xóa vào mỗi cuốn sách hiện có
-            $(".book").append('<button class="btn-delete">❌ Xóa</button>');
+            $(".book").append('<button class="btn-delete">Xóa</button>');
         });
     </script>
 
@@ -83,7 +83,7 @@
                     <div class="book" data-genre="${book.genre}">
                         <h3>${book.title}</h3>
                         <p class="price">${book.price}</p>
-                        <button class="btn-delete">❌ Xóa</button>
+                        <button class="btn-delete">Xóa</button>
                     </div>
                 `;
                 // Thêm sách vào cuối ds
